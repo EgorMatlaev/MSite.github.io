@@ -1,0 +1,39 @@
+
+.box{
+    width: 250px;
+    height: 250px;
+    background-color: blueviolet;
+    position:relative;
+    top: 0;
+    left:0;
+    animation: sgt 4s ease-in-out infinite;
+}
+@keyframes sgt{
+    0%{
+        top: 0;
+        left:0;
+        background-color: blueviolet;
+
+    }
+    25%{
+        top: 0;
+        left: 300px;
+        background-color: rgb(52, 43, 226);
+        border-radius:50%
+
+    }
+    50%{
+        top: 500px;
+        left:300px;
+        background-color: rgb(175, 5, 132);
+        border-radius: 50%;
+
+    }
+    75%{
+        top: 500px;
+        left:0;
+        background-color: rgb(39, 209, 243);
+        border-radius:0%;
+
+    }
+}
